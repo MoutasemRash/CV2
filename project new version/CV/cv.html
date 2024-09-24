@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cv.css">
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>CV</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="head">
+            <h1> Moutasem Abou Arshid </h1>
+            <h3> Front-End Developer </h3>
+            <p> Helsingborg- Sweden | +46762204089 | <a href="Moutasem.rash@gmail.com">Moutasem.rash@gmail.com</a> |  
+            <a href="https://Linked.com" target="_blank">LinkedIN</a> | <a href="https://github.com" target="_blank">github</a> </p>
+        </header>
+        <section class="summary">
+            <div class="head-skills">
+                <h1>SUMMARY</h1>
+                <button onclick="onClickOnbtn('summaryList','summaryIcon')"> 
+                    <i id="summaryIcon" class="fa fa-arrow-up up"></i> </button>
+            </div>
+        <hr>
+
+            <ul class="show" id="summaryList">
+                <li>
+                    Enthusiastic programmer with two years of experience in software development and solving complex problems. Proficient in several programming languages, including JavaScript and C++. Experienced in developing web and mobile applications. Possesses strong analytical skills and the ability to work in a team, contributing to performance improvement and efficiency. Seeking a new opportunity to expand my skills and contribute to innovative projects in the field of information technology
+                </li>
+            </ul>
+
+        </section>
+
+        <section class="list">
+            <div class="head-skills">
+                <h1>WORK</h1>
+                <button onclick="onClickOnbtn('workList','workIcon')"> 
+                    <i id="workIcon" class="fa fa-arrow-up up"></i> </button>
+            </div>
+            <hr>
+            <div class="all-list show" id="workList">
+                <ul id="listWork">
+                </ul>
+                <ul id="startWork">
+                </ul>
+                <ul id="endWork">
+                </ul>
+            </div>
+        </section>
+        <section class="list">
+            <div class="head-skills">
+                <h1>SCHOOL</h1>
+                <button onclick="onClickOnbtn('schoolList','schoolIcon')"> 
+                    <i id="schoolIcon" class="fa fa-arrow-up up"></i> </button>
+            </div>
+            <hr>
+            <div class="all-list show" id="schoolList">
+                <ul id="listSchool">
+                </ul>
+                <ul id="start">
+                </ul>
+                <ul id="end">
+                </ul>
+            </div>
+        </section>
+
+        <section class="list">
+            <div class="head-skills">
+                <h1>Skills</h1>
+                <button onclick="onClickOnbtn('skillList','skillIcon')"> 
+                    <i id="skillIcon" class="fa fa-arrow-up up"></i> </button>
+            </div>
+            <hr>
+            <div id="skillList" class="show">
+                <div class="all-list">
+
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>SASS</li>
+                        <li>API</li>
+                        <li>Algorithm</li>
+
+                    </ul>
+                    <ul>
+                        <li>Java Script</li>
+                        <li>Type Script</li>
+                        <li>c++</li>
+                        <li>My SQL</li>
+                        <li>RESTFull api</li>
+                    </ul>
+                    <ul>
+                        <li>Github</li>
+                        <li>GitLap</li>
+                        <li>VS code</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="list">
+            <div class="head-skills">
+                <h1>PROJECTS</h1>
+                <button onclick="onClickOnbtn('projectsList','projectsICON')"> 
+                    <i id="projectsICON" class="fa fa-arrow-up up"></i> </button>
+            </div>
+            <hr>
+            <div class="all-list show" id="projectsList">
+                <ul id="project">
+                    <li>Portfolio</li>
+          
+
+                </ul>
+
+            </div>
+        </section>
+
+    </div>
+
+
+
+
+    <script src="./index.js">  </script>
+</body>
+
+</html>

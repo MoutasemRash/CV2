@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Home</title>
+</head>
+
+<body>
+    <nav id="nav-container">
+        <ul class="nav-item">
+            <li class="item-list-li"> <a href="" class="item-list-a"> Home </a> </li>
+            <li class="item-list-li"> <a href="./about/about.html" class="item-list-a"> About</a> </li>
+            <li class="item-list-li"> <a href="./contact/contact.html" class="item-list-a"> Contact</a> </li>
+        </ul>
+    </nav>
+
+    <section id="main-container">
+        <div id="img">
+            <img src="data:image/jpeg;base64,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"
+                alt="Error">
+        </div>
+        <div id="col-2">
+            <div id="bio">
+                <p>Enthusiastic programmer with two years of experience in software development and solving complex problems. Proficient in several programming languages, including JavaScript and C++. Experienced in developing web and mobile applications. Possesses strong analytical skills and the ability to work in a team, contributing to performance improvement and efficiency. Seeking a new opportunity to expand my skills and contribute to innovative projects in the field of information technology</p>
+                <div id="link-cv">
+                    <a href="./CV/cv.html"> My CV </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="projects">
+        <div>
+            <div class="card">
+                <h1> Portfolio </h1>
+                <div class="scroll">
+                    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi debitis quibusdam maxime </p>
+                </div>
+
+
+                <div class="link-info">
+                    <a href="./projects/project1/pro1.html"> More Info </a>
+                </div>
+
+
+            </div>
+        </div>
+        <div>
+            <div class="card">
+                <h1> Project2 </h1>
+                <div class="scroll">
+                    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi debitis quibusdam maxime Lorem
+                        ipsum, dolor sit amet consectetur adipisicing elit. Quasi debitis quibusdam maxime </p>
+                </div>
+
+                <div class="link-info">
+                    <a href="./projects/project2/pro2.html"> More Info </a>
+                </div>
+
+            </div>
+        </div>
+        <div>
+            <div class="card">
+                <h1> Project3 </h1>
+                <div class="scroll">
+                    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi debitis quibusdam maxime Lorem
+                        ipsum, dolor sit amet consectetur adipisicing elit. Quasi debitis quibusdam maxime </p>
+                </div>
+
+                <div class="link-info">
+                    <a href="./projects/project3/pro3.html"> More Info </a>
+                </div>
+
+
+
+            </div>
+        </div>
+        <div>
+            <div class="card">
+                <h1> Project4 </h1>
+                <div class="scroll">
+                    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi debitis quibusdam maxime Lorem
+                        ipsum, dolor sit amet consectetur adipisicing elit. Quasi debitis quibusdam maxime </p>
+                </div>
+
+                <div class="link-info">
+                    <a href="./projects/project4/pro4.html"> More Info </a>
+                </div>
+
+
+            </div>
+        </div>
+        <div>
+            <div class="card">
+                <h1> Project5 </h1>
+                <div class="scroll">
+                    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi debitis quibusdam maxime Lorem
+                        ipsum, dolor sit amet consectetur adipisicing elit. Quasi debitis quibusdam maxime </p>
+                </div>
+
+                <div class="link-info">
+                    <a href="./projects/project5/pro5.html"> More Info </a>
+                </div>
+
+
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <footer>
+        <div id="icons">
+            <a href="">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://www.facebook.com/" target="_blank">
+                <i class="fa-brands fa-facebook"></i> 
+            </a>
+            <a href="" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+{
+    "work":[
+       {"name":"Nursing Assistant","startWork":"2017","endWork":"2020"},
+       {"name":"Video Editor","startWork":"2020","endWork":"2022"},
+       {"name":"Web Fron-End Developer","startWork":"2023","endWork":"2024"}
+       
+      ],
+    "school":[
+       {"name":"High school ","start":"2017","end":"2019"},
+       {"name":"Nursing ","start":"2019","end":" 2021"}
+
+      ]
+
+}
